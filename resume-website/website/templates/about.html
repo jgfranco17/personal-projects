@@ -1,0 +1,218 @@
+{% extends "base.html" %} {% block title %}About Me{% endblock %} {% block content %}
+<br>
+<h1 align="center">{% block header %}About Me{% endblock %}</h1>
+<br>
+<div id="information">
+    <div class="card">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <h3>Programmer Skill Set</h3>
+        </div>
+        <div class="card-body">
+            <div class="accordion" id="skillset">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Programming & Development Fundamentals
+                    </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#skillset">
+                        <div class="accordion-body">
+                            Thanks to several years of high school Computer Science classes, I have covered the basics of syntax in the listed languages; with Python3 however, I have also taken online video lectures and courses to further bolster by grasp of the Python language,
+                            as well as built familiarity with different IDEs and text editors. I also have a basic grasp of version control systems.
+                            <br>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Programming Languages</th>
+                                        <th scope="col">Coding Basics</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <ul>
+                                                <li>Python 3</li>
+                                                <li>HTML</li>
+                                                <li>SQL</li>
+                                                <li>Java</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Object-oriented programming</li>
+                                                <li>Algorithmic logic & thinking</li>
+                                                <li>Basics of data structures</li>
+                                                <li>Basics of data analysis & visualization</li>
+                                                <li>Git usage (push/pull)</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Database Usage
+                    </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#skillset">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong>
+                            <br><br>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Programming Languages</th>
+                                        <th scope="col">Coding Basics</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <ul>
+                                                <li>Python 3</li>
+                                                <li>HTML-CSS</li>
+                                                <li>Java</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Object-oriented programming</li>
+                                                <li>Algorithmic logic & thinking</li>
+                                                <li>Basics of data structures</li>
+                                                <li>Basics of data analysis & visualization</li>
+                                                <li>Git usage (push/pull)</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Libraries, Frameworks, and APIs
+                    </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#skillset">
+                        <div class="accordion-body">
+                            In my different Python projects, I was exposed to various modules and systems from different sources. I got to practice using them and reading through their documentations.
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Libraries</th>
+                                        <th scope="col">Frameworks</th>
+                                        <th scope="col">APIs</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <ul>
+                                                <li>NumPy</li>
+                                                <li>Pandas</li>
+                                                <li>Requests</li>
+                                                <li>Unittest</li>
+                                                <li>DateTime</li>
+                                                <li>Matplotlib</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Flask (Python)</li>
+                                                <li>Django (Python)</li>
+                                                <li>Bootstrap (CSS)</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Discord.py</li>
+                                                <li>Spotipy</li>
+                                                <li>PyMongo</li>
+                                                <li>OpenWeather</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div id="general">
+    <div class="card">
+        <div class="card-header d-flex" align="center">
+            <h3>Main Areas of Expertise</h3>
+        </div>
+        <div class="card-body">
+            <div class="card-text">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 border-light">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <h5 class="card-title" align="center">Discord.py API</h5>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="card-text">One of my biggest projects (currently still running) is the creation, development, and maintenance of a Discord.py bot for a gaming community server</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-light">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <h5 class="card-title" align="center">Flask Web Framework</h5>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="card-text">In order to build this resume website, I am currently using a Flask application running on a hosted server; I have also made a simple tasklist webapp with Flask</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-light">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <h5 class="card-title" align="center">Database Integration</h5>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="card-text">For my various projects involving data storage, I was able to get familiar with both SQL-based (MariaDB, SQLite) and NoSQL (MongoDB) structures for databases</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+<div id="general">
+    <div class="card">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <h3>Stuff</h3>
+        </div>
+        <div class="card-body">
+            <div class="card-text">Information</div>
+        </div>
+    </div>
+</div>
+<br> {% endblock %}
